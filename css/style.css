@@ -1,0 +1,33 @@
+.row{
+
+color: white;
+display: flex;
+flex-direction: row;
+margin-bottom: 10px;
+
+}
+
+.col{
+    flex: 1;
+    margin: 0 5px;
+    background-color: darkturquoise;
+    padding: 10px;
+    justify-content: space-evenly;
+
+}
+
+.col-2{
+    flex:2;
+    margin: 0 5px;
+    background-color: darkturquoise;
+    padding: 10px;
+
+}
+
+.col-3{
+    flex:3;
+    margin: 0 5px;
+    background-color: darkturquoise;
+    padding: 10px;
+
+}
